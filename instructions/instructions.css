@@ -1,0 +1,347 @@
+body {
+    background-color: #E3EBEF;
+    overflow: hidden;
+}
+
+.horizontal-line {
+position: absolute;
+width: 1512.02px;
+height: 0px;
+left: -0.01px;
+top: 120px;
+/*152.5px*/
+border: 1px solid #000000;
+}
+
+.vertical-line {
+position: absolute;
+width: 157px;
+height: 0px;
+left: 850px;
+top: 40px;
+/*152px*/
+
+border: 1px solid #000000;
+transform: rotate(-90deg);
+}
+
+h1 {
+position: absolute;
+width: 407px;
+height: 63px;
+left: 19px;
+top: 15px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+  
+}
+
+h2 {
+position: absolute;
+width: 146px;
+height: 63px;
+left: 19px;
+top: 60px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.player {
+    position: absolute;
+    width: 95px;
+    /*407*/
+    height: 63px;
+    left: 800px;
+    top: 70px;
+    /*93px*/
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #000000;
+    }
+
+.instructions {
+
+
+    position: absolute;
+    width: 95px;
+    height: 63px;
+    left: 1000px;
+    top: 70px;
+        
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+        
+    color: #1A16BF;
+}
+
+.about {
+
+    position: absolute;
+    width: 95px;
+    height: 63px;
+    left: 1200px;
+    top: 70px;
+        
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+        
+    color: #000000;
+}
+
+a:visited,
+a:link {
+text-decoration: none;
+color:  #000000;
+}
+a:hover {
+    text-decoration: none;
+    color:#1A16BF;  
+}
+a:active {
+text-decoration: none;
+color:#000000;
+}
+
+.active a {
+    color:#1A16BF;
+}
+
+.instructionsBorder {
+box-sizing: border-box;
+
+position: absolute;
+width: 500px;
+height: 372px;
+left: 128px;
+top: 300px;
+
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+#howToPlay {
+position: absolute;
+width: 407px;
+height: 63px;
+left: 170px;
+top: 220px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #1A16BF;
+}
+
+#instructionsMain {
+position: absolute;
+width: 474px;
+height: 355px;
+left: 159px;
+top: 335px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 37px;
+
+color: #000000;
+}
+
+#extraInstructions {
+position: absolute;
+width: 395px;
+height: 95px;
+left: 230px;
+top: 590px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+
+color: #1A16BF;
+}
+
+#neutralBorder {
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 135px;
+left: 810px;
+top: 280px;
+
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+#neutralIcon {
+position: absolute;
+left: 847px;
+top: 310px;
+}
+
+#neutralLabel {
+    position: absolute;
+    width: 96px;
+    height: 63px;
+    left: 840px;
+    top: 235px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+#highFiveBorder {
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 135px;
+left: 1129px;
+top: 280px;
+
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+#highFiveIcon {
+position: absolute;
+left: 1153px;
+top: 295px;
+}
+
+#highFiveLabel {
+    position: absolute;
+    width: 132px;
+    height: 63px;
+    left: 1150px;
+    top: 235px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+#peaceSignBorder {
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 135px;
+left: 810px;
+top: 550px;
+
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+#peaceSignIcon {
+position: absolute;
+left: 830px;
+top: 565px;
+}
+
+#peaceSignLabel {
+    position: absolute;
+    width: 136px;
+    height: 63px;
+    left: 825px;
+    top: 700px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+#thumbsUpBorder {
+box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 135px;
+left: 1129px;
+top: 550px;
+
+border: 1px solid #000000;
+border-radius: 50px;
+}
+
+#thumbsUpIcon {
+position: absolute;
+left: 1160px;
+top: 565px;
+}
+
+#thumbsUpLabel {
+    position: absolute;
+width: 142px;
+height: 63px;
+left: 1140px;
+top: 700px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+#instructionPlusSymbol {
+    position: absolute;
+    width: 84px;
+    height: 124px;
+    left: 1010px;
+    top: 400px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 128px;
+    line-height: 156px;
+    
+    color: #1A16BF;
+}

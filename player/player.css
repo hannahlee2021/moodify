@@ -1,0 +1,205 @@
+body {
+    background-color: #E3EBEF;
+    overflow: hidden;
+}
+
+/* #backgroundColor { 
+
+    background-color: #E3EBEF;
+    overflow: hidden;
+} */
+
+.horizontal-line {
+    position: absolute;
+    width: 1512.02px;
+    height: 0px;
+    left: -0.01px;
+    top: 120px;
+    /*152.5px*/
+    border: 1px solid #000000;
+    }
+    
+    .vertical-line {
+    position: absolute;
+    width: 157px;
+    height: 0px;
+    left: 850px;
+    top: 40px;
+    /*152px*/
+    
+    border: 1px solid #000000;
+    transform: rotate(-90deg);
+    }
+    
+    h1 {
+        position: absolute;
+        width: 407px;
+        height: 63px;
+        left: 19px;
+        top: 15px;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: #000000;
+          
+        }
+    
+    h2 {
+    position: absolute;
+    width: 146px;
+    height: 63px;
+    left: 19px;
+    top: 60px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+    color: #000000;
+    }
+    
+    .player {
+        position: absolute;
+        width: 95px;
+        /*407*/
+        height: 63px;
+        left: 800px;
+        top: 70px;
+        /*93px*/
+        
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+        
+        color: #1A16BF;
+        }
+    
+    .instructions {
+    
+    
+        position: absolute;
+        width: 95px;
+        height: 63px;
+        left: 1000px;
+        top: 70px;
+            
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+            
+        color: #000000;
+    }
+    
+    .about {
+    
+        position: absolute;
+        width: 95px;
+        height: 63px;
+        left: 1200px;
+        top: 70px;
+            
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 29px;
+            
+        color: #000000;
+    }
+    
+    a:visited,
+    a:link {
+    text-decoration: none;
+    color:  #000000;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #1A16BF;  
+    }
+    a:active {
+    text-decoration: none;
+    color:#000000;
+    }
+
+    .active a {
+    color: #1A16BF; 
+    }
+
+    /*.y2kLaptop {
+    position: absolute;
+    width: 648px;
+    height: 494px;
+    left: 100px;
+    top: 200px;
+    }*/
+
+    .songBorder {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 319px;
+    height: 300px;
+    left: 920px;
+    top: 420px;
+
+    border: 1px solid #1A16BF;
+    border-radius: 50px;
+    }
+
+    .gestureBorder {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 324px;
+    height: 100px;
+    left: 920px;
+    top: 225px;
+
+    border: 1px solid #1A16BF;
+    border-radius: 50px;
+    }
+
+    #highFive {
+    position: absolute;
+    left: 1000px;
+    top: 175px;
+    }
+
+    #peaceSign {
+    position: absolute;
+    left: 1053px;
+    top: 175px;
+    }
+
+    #thumbsUp {
+    position: absolute;
+    left: 1115px;
+    top: 175px;
+    }
+
+    #musicLabel {
+        position: absolute;
+width: 484px;
+height: 63px;
+left: 845px;
+top: 355px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 61px;
+text-align: center;
+
+color: #000000;
+    }

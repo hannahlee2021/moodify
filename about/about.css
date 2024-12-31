@@ -1,0 +1,77 @@
+body {
+    background-color: #E3EBEF;
+    overflow: hidden;
+}
+
+h1 {
+position: absolute;
+width: 407px;
+height: 63px;
+left: 19px;
+top: 15px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+  
+}
+
+h2 {
+position: absolute;
+width: 146px;
+height: 63px;
+left: 19px;
+top: 60px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+
+#aboutText {
+position: absolute;
+width: 550px;
+height: 547px;
+left: 176px;
+top: 125px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+
+color: #000000;
+
+}
+
+#aboutPhoto {
+position: absolute;
+left: 862px;
+top: 250px;
+}
+
+a:visited,
+a:link {
+text-decoration: none;
+color:  #000000;
+}
+a:hover {
+    text-decoration: none;
+    color:#1A16BF;  
+}
+a:active {
+text-decoration: none;
+color:#000000;
+}
+
+.active a {
+    color:#1A16BF;  
+}
